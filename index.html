@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>ToDoList</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="main.js" defer></script>
+        <script
+            src="https://kit.fontawesome.com/b970862f7b.js"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+
+    <body>
+        <div class="main">
+            <h1 class="title">
+                <span>ToDoList</span>
+            </h1>
+
+            <div class="container">
+                <div class="insert">
+                    <i class="fa-solid fa-check list__all__check"></i>
+                    <input
+                        type="text"
+                        id="insert__content"
+                        placeholder="해야 할 일을 입력해주세요"
+                    />
+                </div>
+
+                <!-- <div class="content">
+                <input type="checkbox" class="checkbox" data-checked="false"/>
+                <span class="content__text" >첫번째 할 일</span>
+                <i class="fa-solid fa-x"></i>
+            </div> -->
+
+                <footer class="footer">
+                    <span class="item__count">0 items left</span>
+
+                    <div class="center">
+                        <button class="item__all__btn">All</button>
+                        <button class="item__active__btn">Active</button>
+                        <button class="item__completed__btn">Completed</button>
+                    </div>
+                    <button class="item__clear__btn">Clear Completed</button>
+                </footer>
+            </div>
+
+            <div class="bottom">
+                <span class="bottom__txt">수정할땐 더블클릭!</span>
+            </div>
+        </div>
+    </body>
+</html>
